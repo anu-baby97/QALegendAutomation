@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\nithi\eclipse-workspace\QALegendAutomation\ExtentReport.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.UserManagementTestCases" class="method navigator-link" hash-for-method="addNewUserWithValidData(Mini, Thomas, Executive, mini123, mini123, 3)">addNewUserWithValidData(Mini, Thomas, Executive, mini123, mini123, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.UserManagementTestCases" class="method navigator-link" hash-for-method="addNewUserWithValidData(Athira, Kumar, Specialist, athi123, athi123, 9)">addNewUserWithValidData(Athira, Kumar, Specialist, athi123, athi123, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.UserManagementTestCases" class="method navigator-link" hash-for-method="addNewUserWithValidData(Anu, Baby, Technician, anu123, anu123, 6)">addNewUserWithValidData(Anu, Baby, Technician, anu123, anu123, 6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.UserManagementTestCases" class="method navigator-link" hash-for-method="addNewUserwithExistingUserName(Athira, Kumar, Specialist, athi123, athi123, 9)">addNewUserwithExistingUserName(Athira, Kumar, Specialist, athi123, athi123, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.UserManagementTestCases" class="method navigator-link" hash-for-method="addNewUserwithExistingUserName(Mini, Thomas, Executive, mini123, mini123, 3)">addNewUserwithExistingUserName(Mini, Thomas, Executive, mini123, mini123, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.UserManagementTestCases" class="method navigator-link" hash-for-method="addNewUserwithExistingUserName(Anu, Baby, Technician, anu123, anu123, 6)">addNewUserwithExistingUserName(Anu, Baby, Technician, anu123, anu123, 6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.UserManagementTestCases" class="method navigator-link" hash-for-method="checkSearchFunctionality">checkSearchFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.UserManagementTestCases" class="method navigator-link" hash-for-method="editRolePermission">editRolePermission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.HomePageTestCases" class="method navigator-link" hash-for-method="isCalculatorDisplayedOnIconClick">isCalculatorDisplayedOnIconClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.UserManagementTestCases" class="method navigator-link" hash-for-method="isMenuExpansionDisplayed">isMenuExpansionDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.HomePageTestCases" class="method navigator-link" hash-for-method="isUserAbleToLogOut">isUserAbleToLogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginPageTestCases" class="method navigator-link" hash-for-method="loginUsingInvalidCredentials">loginUsingInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginPageTestCases" class="method navigator-link" hash-for-method="loginUsingValidCredentials">loginUsingValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginPageTestCases" class="method navigator-link" hash-for-method="passwordResetWithInvalidEmail">passwordResetWithInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginPageTestCases" class="method navigator-link" hash-for-method="passwordResetWithValidEmail">passwordResetWithValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.UserManagementTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUserWithValidData(Mini, Thomas, Executive, mini123, mini123, 3)">
+                  </a> <!-- addNewUserWithValidData(Mini, Thomas, Executive, mini123, mini123, 3) -->
+                  <span class="method-name">addNewUserWithValidData</span>
+                  <span class="parameters">(Mini, Thomas, Executive, mini123, mini123, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUserWithValidData(Athira, Kumar, Specialist, athi123, athi123, 9)">
+                  </a> <!-- addNewUserWithValidData(Athira, Kumar, Specialist, athi123, athi123, 9) -->
+                  <span class="method-name">addNewUserWithValidData</span>
+                  <span class="parameters">(Athira, Kumar, Specialist, athi123, athi123, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUserWithValidData(Anu, Baby, Technician, anu123, anu123, 6)">
+                  </a> <!-- addNewUserWithValidData(Anu, Baby, Technician, anu123, anu123, 6) -->
+                  <span class="method-name">addNewUserWithValidData</span>
+                  <span class="parameters">(Anu, Baby, Technician, anu123, anu123, 6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUserwithExistingUserName(Athira, Kumar, Specialist, athi123, athi123, 9)">
+                  </a> <!-- addNewUserwithExistingUserName(Athira, Kumar, Specialist, athi123, athi123, 9) -->
+                  <span class="method-name">addNewUserwithExistingUserName</span>
+                  <span class="parameters">(Athira, Kumar, Specialist, athi123, athi123, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUserwithExistingUserName(Mini, Thomas, Executive, mini123, mini123, 3)">
+                  </a> <!-- addNewUserwithExistingUserName(Mini, Thomas, Executive, mini123, mini123, 3) -->
+                  <span class="method-name">addNewUserwithExistingUserName</span>
+                  <span class="parameters">(Mini, Thomas, Executive, mini123, mini123, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewUserwithExistingUserName(Anu, Baby, Technician, anu123, anu123, 6)">
+                  </a> <!-- addNewUserwithExistingUserName(Anu, Baby, Technician, anu123, anu123, 6) -->
+                  <span class="method-name">addNewUserwithExistingUserName</span>
+                  <span class="parameters">(Anu, Baby, Technician, anu123, anu123, 6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSearchFunctionality">
+                  </a> <!-- checkSearchFunctionality -->
+                  <span class="method-name">checkSearchFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editRolePermission">
+                  </a> <!-- editRolePermission -->
+                  <span class="method-name">editRolePermission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isMenuExpansionDisplayed">
+                  </a> <!-- isMenuExpansionDisplayed -->
+                  <span class="method-name">isMenuExpansionDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LoginPageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUsingInvalidCredentials">
+                  </a> <!-- loginUsingInvalidCredentials -->
+                  <span class="method-name">loginUsingInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUsingValidCredentials">
+                  </a> <!-- loginUsingValidCredentials -->
+                  <span class="method-name">loginUsingValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordResetWithInvalidEmail">
+                  </a> <!-- passwordResetWithInvalidEmail -->
+                  <span class="method-name">passwordResetWithInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordResetWithValidEmail">
+                  </a> <!-- passwordResetWithValidEmail -->
+                  <span class="method-name">passwordResetWithValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.HomePageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isCalculatorDisplayedOnIconClick">
+                  </a> <!-- isCalculatorDisplayedOnIconClick -->
+                  <span class="method-name">isCalculatorDisplayedOnIconClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isUserAbleToLogOut">
+                  </a> <!-- isUserAbleToLogOut -->
+                  <span class="method-name">isUserAbleToLogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nithi\eclipse-workspace\QALegendAutomation\ExtentReport.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.LoginPageTestCases&quot;/&gt;
+      &lt;class name=&quot;testCases.HomePageTestCases&quot;/&gt;
+      &lt;class name=&quot;testCases.UserManagementTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addNewUserWithValidData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkSearchFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isMenuExpansionDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isUserAbleToLogOut</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginUsingInvalidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginUsingValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">passwordResetWithInvalidEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">passwordResetWithValidEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">isMenuExpansionDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginUsingValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">passwordResetWithValidEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addNewUserWithValidData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isCalculatorDisplayedOnIconClick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isMenuExpansionDisplayed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">isUserAbleToLogOut</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginUsingInvalidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginUsingValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">passwordResetWithInvalidEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">passwordResetWithValidEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'editRolePermission')
+data.setCell(0, 2, 'testCases.UserManagementTestCases')
+data.setCell(0, 3, 9256);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addNewUserWithValidData')
+data.setCell(1, 2, 'testCases.UserManagementTestCases')
+data.setCell(1, 3, 8349);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addNewUserWithValidData')
+data.setCell(2, 2, 'testCases.UserManagementTestCases')
+data.setCell(2, 3, 8276);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addNewUserWithValidData')
+data.setCell(3, 2, 'testCases.UserManagementTestCases')
+data.setCell(3, 3, 8236);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkSearchFunctionality')
+data.setCell(4, 2, 'testCases.UserManagementTestCases')
+data.setCell(4, 3, 6871);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addNewUserwithExistingUserName')
+data.setCell(5, 2, 'testCases.UserManagementTestCases')
+data.setCell(5, 3, 6579);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addNewUserwithExistingUserName')
+data.setCell(6, 2, 'testCases.UserManagementTestCases')
+data.setCell(6, 3, 6436);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addNewUserwithExistingUserName')
+data.setCell(7, 2, 'testCases.UserManagementTestCases')
+data.setCell(7, 3, 6309);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'isMenuExpansionDisplayed')
+data.setCell(8, 2, 'testCases.UserManagementTestCases')
+data.setCell(8, 3, 2996);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'isUserAbleToLogOut')
+data.setCell(9, 2, 'testCases.HomePageTestCases')
+data.setCell(9, 3, 2956);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'isCalculatorDisplayedOnIconClick')
+data.setCell(10, 2, 'testCases.HomePageTestCases')
+data.setCell(10, 3, 2340);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginUsingValidCredentials')
+data.setCell(11, 2, 'testCases.LoginPageTestCases')
+data.setCell(11, 3, 2130);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'passwordResetWithValidEmail')
+data.setCell(12, 2, 'testCases.LoginPageTestCases')
+data.setCell(12, 3, 1811);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'passwordResetWithInvalidEmail')
+data.setCell(13, 2, 'testCases.LoginPageTestCases')
+data.setCell(13, 3, 1352);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginUsingInvalidCredentials')
+data.setCell(14, 2, 'testCases.LoginPageTestCases')
+data.setCell(14, 3, 870);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginUsingValidCredentials</span>
+                <span class="method-start">6257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginUsingValidCredentials status=SUCCESS method=LoginPageTestCases.loginUsingValid...)</span>
+                <span class="method-start">8407 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.HomePageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">8564 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">isCalculatorDisplayedOnIconClick</span>
+                <span class="method-start">14683 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=isCalculatorDisplayedOnIconClick status=SUCCESS method=HomePageTestCases.isCalculat...)</span>
+                <span class="method-start">17024 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.UserManagementTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">17191 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">isMenuExpansionDisplayed</span>
+                <span class="method-start">22379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=isMenuExpansionDisplayed status=SUCCESS method=UserManagementTestCases.isMenuExpans...)</span>
+                <span class="method-start">25376 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">25504 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginUsingInvalidCredentials</span>
+                <span class="method-start">30742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginUsingInvalidCredentials status=SUCCESS method=LoginPageTestCases.loginUsingInv...)</span>
+                <span class="method-start">31613 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.HomePageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">31720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">isUserAbleToLogOut</span>
+                <span class="method-start">39595 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=isUserAbleToLogOut status=SUCCESS method=HomePageTestCases.isUserAbleToLogOut()[pri...)</span>
+                <span class="method-start">42552 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.UserManagementTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">44126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewUserWithValidData(Anu, Baby, Technician, anu123, anu123, 6)</span>
+                <span class="method-start">50619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addNewUserWithValidData status=SUCCESS method=UserManagementTestCases.addNewUserWit...)</span>
+                <span class="method-start">58856 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">58968 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewUserWithValidData(Mini, Thomas, Executive, mini123, mini123, 3)</span>
+                <span class="method-start">65749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addNewUserWithValidData status=SUCCESS method=UserManagementTestCases.addNewUserWit...)</span>
+                <span class="method-start">74027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">74165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewUserWithValidData(Athira, Kumar, Specialist, athi123, athi123, 9)</span>
+                <span class="method-start">78870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addNewUserWithValidData status=SUCCESS method=UserManagementTestCases.addNewUserWit...)</span>
+                <span class="method-start">87220 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">87372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passwordResetWithValidEmail</span>
+                <span class="method-start">92451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=passwordResetWithValidEmail status=SUCCESS method=LoginPageTestCases.passwordResetW...)</span>
+                <span class="method-start">94263 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.UserManagementTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">94760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewUserwithExistingUserName(Anu, Baby, Technician, anu123, anu123, 6)</span>
+                <span class="method-start">98266 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addNewUserwithExistingUserName status=SUCCESS method=UserManagementTestCases.addNew...)</span>
+                <span class="method-start">104702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">104834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewUserwithExistingUserName(Mini, Thomas, Executive, mini123, mini123, 3)</span>
+                <span class="method-start">109862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addNewUserwithExistingUserName status=SUCCESS method=UserManagementTestCases.addNew...)</span>
+                <span class="method-start">116172 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">116282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewUserwithExistingUserName(Athira, Kumar, Specialist, athi123, athi123, 9)</span>
+                <span class="method-start">120631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addNewUserwithExistingUserName status=SUCCESS method=UserManagementTestCases.addNew...)</span>
+                <span class="method-start">127211 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">127342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">passwordResetWithInvalidEmail</span>
+                <span class="method-start">130867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=passwordResetWithInvalidEmail status=SUCCESS method=LoginPageTestCases.passwordRese...)</span>
+                <span class="method-start">132219 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.UserManagementTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">132302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSearchFunctionality</span>
+                <span class="method-start">137225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkSearchFunctionality status=SUCCESS method=UserManagementTestCases.checkSearchF...)</span>
+                <span class="method-start">144096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">144243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editRolePermission</span>
+                <span class="method-start">148499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=editRolePermission status=SUCCESS method=UserManagementTestCases.editRolePermission...)</span>
+                <span class="method-start">157756 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

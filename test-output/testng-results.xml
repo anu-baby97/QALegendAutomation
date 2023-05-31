@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-31T09:11:55Z" name="Suite" finished-at="2023-05-31T09:14:33Z" duration-ms="158131">
+    <groups>
+      <group name="Sanity">
+        <method signature="LoginPageTestCases.loginUsingValidCredentials()[pri:1, instance:testCases.LoginPageTestCases@14fa86ae]" name="loginUsingValidCredentials" class="testCases.LoginPageTestCases"/>
+        <method signature="LoginPageTestCases.passwordResetWithValidEmail()[pri:3, instance:testCases.LoginPageTestCases@14fa86ae]" name="passwordResetWithValidEmail" class="testCases.LoginPageTestCases"/>
+        <method signature="UserManagementTestCases.isMenuExpansionDisplayed()[pri:1, instance:testCases.UserManagementTestCases@68f1b17f]" name="isMenuExpansionDisplayed" class="testCases.UserManagementTestCases"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="HomePageTestCases.isUserAbleToLogOut()[pri:2, instance:testCases.HomePageTestCases@6e15fe2]" name="isUserAbleToLogOut" class="testCases.HomePageTestCases"/>
+        <method signature="LoginPageTestCases.loginUsingInvalidCredentials()[pri:2, instance:testCases.LoginPageTestCases@14fa86ae]" name="loginUsingInvalidCredentials" class="testCases.LoginPageTestCases"/>
+        <method signature="LoginPageTestCases.loginUsingValidCredentials()[pri:1, instance:testCases.LoginPageTestCases@14fa86ae]" name="loginUsingValidCredentials" class="testCases.LoginPageTestCases"/>
+        <method signature="LoginPageTestCases.passwordResetWithInvalidEmail()[pri:4, instance:testCases.LoginPageTestCases@14fa86ae]" name="passwordResetWithInvalidEmail" class="testCases.LoginPageTestCases"/>
+        <method signature="LoginPageTestCases.passwordResetWithValidEmail()[pri:3, instance:testCases.LoginPageTestCases@14fa86ae]" name="passwordResetWithValidEmail" class="testCases.LoginPageTestCases"/>
+        <method signature="UserManagementTestCases.addNewUserWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.UserManagementTestCases@68f1b17f]" name="addNewUserWithValidData" class="testCases.UserManagementTestCases"/>
+        <method signature="UserManagementTestCases.checkSearchFunctionality()[pri:4, instance:testCases.UserManagementTestCases@68f1b17f]" name="checkSearchFunctionality" class="testCases.UserManagementTestCases"/>
+        <method signature="UserManagementTestCases.isMenuExpansionDisplayed()[pri:1, instance:testCases.UserManagementTestCases@68f1b17f]" name="isMenuExpansionDisplayed" class="testCases.UserManagementTestCases"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="HomePageTestCases.isCalculatorDisplayedOnIconClick()[pri:1, instance:testCases.HomePageTestCases@6e15fe2]" name="isCalculatorDisplayedOnIconClick" class="testCases.HomePageTestCases"/>
+        <method signature="HomePageTestCases.isUserAbleToLogOut()[pri:2, instance:testCases.HomePageTestCases@6e15fe2]" name="isUserAbleToLogOut" class="testCases.HomePageTestCases"/>
+        <method signature="LoginPageTestCases.loginUsingInvalidCredentials()[pri:2, instance:testCases.LoginPageTestCases@14fa86ae]" name="loginUsingInvalidCredentials" class="testCases.LoginPageTestCases"/>
+        <method signature="LoginPageTestCases.loginUsingValidCredentials()[pri:1, instance:testCases.LoginPageTestCases@14fa86ae]" name="loginUsingValidCredentials" class="testCases.LoginPageTestCases"/>
+        <method signature="LoginPageTestCases.passwordResetWithInvalidEmail()[pri:4, instance:testCases.LoginPageTestCases@14fa86ae]" name="passwordResetWithInvalidEmail" class="testCases.LoginPageTestCases"/>
+        <method signature="LoginPageTestCases.passwordResetWithValidEmail()[pri:3, instance:testCases.LoginPageTestCases@14fa86ae]" name="passwordResetWithValidEmail" class="testCases.LoginPageTestCases"/>
+        <method signature="UserManagementTestCases.addNewUserWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.UserManagementTestCases@68f1b17f]" name="addNewUserWithValidData" class="testCases.UserManagementTestCases"/>
+        <method signature="UserManagementTestCases.isMenuExpansionDisplayed()[pri:1, instance:testCases.UserManagementTestCases@68f1b17f]" name="isMenuExpansionDisplayed" class="testCases.UserManagementTestCases"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-05-31T09:11:55Z" name="Test" finished-at="2023-05-31T09:14:33Z" duration-ms="158131">
+      <class name="testCases.UserManagementTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:42:12Z" name="beforeMethod" finished-at="2023-05-31T14:42:17Z" duration-ms="5188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isMenuExpansionDisplayed()[pri:1, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:42:17Z" name="isMenuExpansionDisplayed" finished-at="2023-05-31T14:42:20Z" duration-ms="2996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isMenuExpansionDisplayed -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:42:20Z" name="afterMethod" finished-at="2023-05-31T14:42:21Z" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isMenuExpansionDisplayed status=SUCCESS method=UserManagementTestCases.isMenuExpansionDisplayed()[pri:1, instance:testCases.UserManagementTestCases@68f1b17f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:42:39Z" name="beforeMethod" finished-at="2023-05-31T14:42:46Z" duration-ms="6493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addNewUserWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:42:46Z" name="addNewUserWithValidData" data-provider="testData" finished-at="2023-05-31T14:42:54Z" duration-ms="8236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baby]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Technician]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[anu123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[anu123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserWithValidData -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:42:54Z" name="afterMethod" finished-at="2023-05-31T14:42:54Z" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewUserWithValidData status=SUCCESS method=UserManagementTestCases.addNewUserWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.UserManagementTestCases@68f1b17f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:42:54Z" name="beforeMethod" finished-at="2023-05-31T14:43:01Z" duration-ms="6781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addNewUserWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:01Z" name="addNewUserWithValidData" data-provider="testData" finished-at="2023-05-31T14:43:09Z" duration-ms="8276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thomas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Executive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mini123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mini123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserWithValidData -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:09Z" name="afterMethod" finished-at="2023-05-31T14:43:09Z" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewUserWithValidData status=SUCCESS method=UserManagementTestCases.addNewUserWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.UserManagementTestCases@68f1b17f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:09Z" name="beforeMethod" finished-at="2023-05-31T14:43:14Z" duration-ms="4705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addNewUserWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:14Z" name="addNewUserWithValidData" data-provider="testData" finished-at="2023-05-31T14:43:22Z" duration-ms="8349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Athira]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Specialist]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[athi123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[athi123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserWithValidData -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:22Z" name="afterMethod" finished-at="2023-05-31T14:43:22Z" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewUserWithValidData status=SUCCESS method=UserManagementTestCases.addNewUserWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.UserManagementTestCases@68f1b17f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:30Z" name="beforeMethod" finished-at="2023-05-31T14:43:33Z" duration-ms="3506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addNewUserwithExistingUserName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:33Z" name="addNewUserwithExistingUserName" data-provider="testData" finished-at="2023-05-31T14:43:40Z" duration-ms="6436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baby]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Technician]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[anu123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[anu123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserwithExistingUserName -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:40Z" name="afterMethod" finished-at="2023-05-31T14:43:40Z" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewUserwithExistingUserName status=SUCCESS method=UserManagementTestCases.addNewUserwithExistingUserName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testCases.UserManagementTestCases@68f1b17f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:40Z" name="beforeMethod" finished-at="2023-05-31T14:43:45Z" duration-ms="5028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addNewUserwithExistingUserName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:45Z" name="addNewUserwithExistingUserName" data-provider="testData" finished-at="2023-05-31T14:43:51Z" duration-ms="6309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thomas]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Executive]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mini123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mini123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserwithExistingUserName -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:51Z" name="afterMethod" finished-at="2023-05-31T14:43:51Z" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewUserwithExistingUserName status=SUCCESS method=UserManagementTestCases.addNewUserwithExistingUserName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testCases.UserManagementTestCases@68f1b17f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:51Z" name="beforeMethod" finished-at="2023-05-31T14:43:56Z" duration-ms="4349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addNewUserwithExistingUserName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:43:56Z" name="addNewUserwithExistingUserName" data-provider="testData" finished-at="2023-05-31T14:44:02Z" duration-ms="6579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Athira]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Specialist]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[athi123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[athi123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserwithExistingUserName -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:44:02Z" name="afterMethod" finished-at="2023-05-31T14:44:02Z" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewUserwithExistingUserName status=SUCCESS method=UserManagementTestCases.addNewUserwithExistingUserName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testCases.UserManagementTestCases@68f1b17f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:44:07Z" name="beforeMethod" finished-at="2023-05-31T14:44:12Z" duration-ms="4923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="checkSearchFunctionality()[pri:4, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:44:12Z" name="checkSearchFunctionality" finished-at="2023-05-31T14:44:19Z" duration-ms="6871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchFunctionality -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:44:19Z" name="afterMethod" finished-at="2023-05-31T14:44:19Z" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSearchFunctionality status=SUCCESS method=UserManagementTestCases.checkSearchFunctionality()[pri:4, instance:testCases.UserManagementTestCases@68f1b17f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:44:19Z" name="beforeMethod" finished-at="2023-05-31T14:44:24Z" duration-ms="4256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="editRolePermission()[pri:4, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:44:24Z" name="editRolePermission" finished-at="2023-05-31T14:44:33Z" duration-ms="9256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editRolePermission -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.UserManagementTestCases@68f1b17f]" started-at="2023-05-31T14:44:33Z" name="afterMethod" finished-at="2023-05-31T14:44:33Z" duration-ms="63" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editRolePermission status=SUCCESS method=UserManagementTestCases.editRolePermission()[pri:4, instance:testCases.UserManagementTestCases@68f1b17f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.UserManagementTestCases -->
+      <class name="testCases.HomePageTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.HomePageTestCases@6e15fe2]" started-at="2023-05-31T14:42:04Z" name="beforeMethod" finished-at="2023-05-31T14:42:10Z" duration-ms="6118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isCalculatorDisplayedOnIconClick()[pri:1, instance:testCases.HomePageTestCases@6e15fe2]" started-at="2023-05-31T14:42:10Z" name="isCalculatorDisplayedOnIconClick" finished-at="2023-05-31T14:42:12Z" duration-ms="2340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCalculatorDisplayedOnIconClick -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTestCases@6e15fe2]" started-at="2023-05-31T14:42:12Z" name="afterMethod" finished-at="2023-05-31T14:42:12Z" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isCalculatorDisplayedOnIconClick status=SUCCESS method=HomePageTestCases.isCalculatorDisplayedOnIconClick()[pri:1, instance:testCases.HomePageTestCases@6e15fe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.HomePageTestCases@6e15fe2]" started-at="2023-05-31T14:42:27Z" name="beforeMethod" finished-at="2023-05-31T14:42:35Z" duration-ms="7875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isUserAbleToLogOut()[pri:2, instance:testCases.HomePageTestCases@6e15fe2]" started-at="2023-05-31T14:42:35Z" name="isUserAbleToLogOut" finished-at="2023-05-31T14:42:38Z" duration-ms="2956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUserAbleToLogOut -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTestCases@6e15fe2]" started-at="2023-05-31T14:42:38Z" name="afterMethod" finished-at="2023-05-31T14:42:38Z" duration-ms="100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isUserAbleToLogOut status=SUCCESS method=HomePageTestCases.isUserAbleToLogOut()[pri:2, instance:testCases.HomePageTestCases@6e15fe2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.HomePageTestCases -->
+      <class name="testCases.LoginPageTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:41:55Z" name="beforeMethod" finished-at="2023-05-31T14:42:01Z" duration-ms="6256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginUsingValidCredentials()[pri:1, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:42:01Z" name="loginUsingValidCredentials" finished-at="2023-05-31T14:42:03Z" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsingValidCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:42:03Z" name="afterMethod" finished-at="2023-05-31T14:42:04Z" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUsingValidCredentials status=SUCCESS method=LoginPageTestCases.loginUsingValidCredentials()[pri:1, instance:testCases.LoginPageTestCases@14fa86ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:42:21Z" name="beforeMethod" finished-at="2023-05-31T14:42:26Z" duration-ms="5238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginUsingInvalidCredentials()[pri:2, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:42:26Z" name="loginUsingInvalidCredentials" finished-at="2023-05-31T14:42:27Z" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsingInvalidCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:42:27Z" name="afterMethod" finished-at="2023-05-31T14:42:27Z" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUsingInvalidCredentials status=SUCCESS method=LoginPageTestCases.loginUsingInvalidCredentials()[pri:2, instance:testCases.LoginPageTestCases@14fa86ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:43:22Z" name="beforeMethod" finished-at="2023-05-31T14:43:27Z" duration-ms="5079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="passwordResetWithValidEmail()[pri:3, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:43:27Z" name="passwordResetWithValidEmail" finished-at="2023-05-31T14:43:29Z" duration-ms="1811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordResetWithValidEmail -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:43:29Z" name="afterMethod" finished-at="2023-05-31T14:43:29Z" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passwordResetWithValidEmail status=SUCCESS method=LoginPageTestCases.passwordResetWithValidEmail()[pri:3, instance:testCases.LoginPageTestCases@14fa86ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:44:02Z" name="beforeMethod" finished-at="2023-05-31T14:44:06Z" duration-ms="3525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="passwordResetWithInvalidEmail()[pri:4, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:44:06Z" name="passwordResetWithInvalidEmail" finished-at="2023-05-31T14:44:07Z" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordResetWithInvalidEmail -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTestCases@14fa86ae]" started-at="2023-05-31T14:44:07Z" name="afterMethod" finished-at="2023-05-31T14:44:07Z" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passwordResetWithInvalidEmail status=SUCCESS method=LoginPageTestCases.passwordResetWithInvalidEmail()[pri:4, instance:testCases.LoginPageTestCases@14fa86ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.LoginPageTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
